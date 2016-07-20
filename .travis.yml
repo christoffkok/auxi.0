@@ -11,7 +11,6 @@ before_install:
 script:
 - cd $TRAVIS_BUILD_DIR
 - sudo python setup.py sdist
-- sudo python3 setup.py sdist
 deploy:
   provider: pypi
   user: emdev
