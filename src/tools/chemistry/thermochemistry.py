@@ -303,14 +303,14 @@ class Compound(Object):
         for k, v in dictionary['Phases'].items():
             self._phases[k] = Phase(v)
 
-#    def __str__(self):
-#        result = 'COMPOUND: ' + '\n'
-#        result += '\tFormula: ' + self.formula + '\n'
-#
-#        for k, v in self._phases.items():
-#            result += str(v)
-#
-#        return result
+    # def __str__(self):
+    #    result = 'COMPOUND: ' + '\n'
+    #    result += '\tFormula: ' + self.formula + '\n'
+    #
+    #    for k, v in self._phases.items():
+    #        result += str(v)
+    #
+    #    return result
 
     def get_phase_list(self):
         """
